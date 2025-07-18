@@ -1,6 +1,6 @@
 ## Palmoria Group HR Analytics Report
 # Project Overview
-This report presents an in-depth analysis of gender-related HR issues at Palmoria Group, a Nigerian manufacturing company. Commissioned by CHRO Mr. Yunus Shofoluwe, the project aims to:
+This report presents an in-depth analysis of gender-related HR issues at Palmoria Group, a Nigerian manufacturing company. The project aims to:
 
 1. Investigate gender distribution across the organization.
 2. Identify departments and regions contributing to gender disparities.
@@ -42,12 +42,15 @@ This report presents an in-depth analysis of gender-related HR issues at Palmori
 
 # 🛠 Tools Used
  - Excel/CSV: Initial data format
- - Power bi: For visualization 
+ - Power bi: For visualization
 
-# Data Cleaning Steps
+## Methodology
+ Data Cleaning
+ Visualization
+ Data Cleaning Steps
  •Removed NULL department entries.
  
- •Removed employees without salary or who are no longer active.
+ •Removed employees without salary or who are no longer active
  
  •Assigned "Unknown" to missing gender entries.
  
@@ -99,9 +102,7 @@ A recent regulation mandates that manufacturing companies pay a minimum salary o
 📉 Compliance Rate: 30.87%
 Palmoria does not meet the new regulation requirement. Majority of employees earn below the $90,000 threshold.
 
-✅ Recommendations
+## ✅ Recommendations
 Increase salaries for departments or employees below the $90,000 mark to comply with regulations.
 
-Close the gender pay gap through periodic compensation reviews.
-
-Improve rating fairness across genders with manager training and objective KPI
+Improve rating fairness across genders with manager training and objective KPI 
