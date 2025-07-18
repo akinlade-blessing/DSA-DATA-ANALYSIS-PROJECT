@@ -18,29 +18,27 @@ This report presents an in-depth analysis of gender-related HR issues at Palmori
 1. Gender Distribution Analysis
 - Examined overall gender breakdown in the company.
 - Analyzed gender distribution by region and department.
-- Handled missing gender entries by assigning "Undisclosed".
-- Visualized results using bar charts by region and department.
+- Visualized results using donut chart and clustered column chart by region and department.
 
 2. Performance Ratings vs. Gender
 - Investigated employee performance ratings across genders.
 - Identified potential performance trends or biases.
 - Some employee names appeared twice on the data set in which i removed 
-- Visualized results using box plots of ratings by gender.
+- Visualized results using clustered bar chart of ratings by gender.
 
 3. Salary Structure & Gender Pay Gap Analysis
 - Excluded employees without salary data (e.g., inactive employees).
 - Analyzed average salaries by gender, region, and department.
 - Assessed the presence of a gender pay gap.
-- Visualized results using 
+- Visualized results using gauge chart
 
 4. Salary Band Distribution
 - Grouped salaries into $10,000 bands (e.g.,$20,000-$30,000, etc.).
 - Identified the number of employees in each salary bracket.
-- Visualized results.
+- Visualized results using clustered column chart.
 
 5. Regulatory Compliance Check
-- Identified employees earning below the new minimum wage of $90,000.
-- Visualized non-compliance
+- Calculated the percentage of employees earning that meets the recent regulation requirement.
 
 # 🛠 Tools Used
  - Excel/CSV: Initial data format
@@ -48,9 +46,22 @@ This report presents an in-depth analysis of gender-related HR issues at Palmori
 
 # Data Cleaning Steps
  •Removed NULL department entries.
+ 
  •Removed employees without salary or who are no longer active.
+ 
  •Assigned "Unknown" to missing gender entries.
+ 
  •Standardized columns and values.
+
+ # Results
+ The cleaned data sheet
+ ![Blessing power bi 3](https://github.com/user-attachments/assets/21e32b1d-eb1d-4041-a944-1eb8e5c28082)
+
+ Visuals
+
+![Blessing recent](https://github.com/user-attachments/assets/98bf0fcd-78c5-439e-ab57-fbf16063f37b)
+
+![blesing power bi 1](https://github.com/user-attachments/assets/affc19ae-3502-4a67-967a-8255dad69bb3)
 
 # 📊 PALMORIA GROUP HR DASHBOARD ANALYSIS
 👥 Gender Distribution in the Organization
@@ -90,5 +101,7 @@ Palmoria does not meet the new regulation requirement. Majority of employees ear
 
 ✅ Recommendations
 Increase salaries for departments or employees below the $90,000 mark to comply with regulations.
+
 Close the gender pay gap through periodic compensation reviews.
+
 Improve rating fairness across genders with manager training and objective KPI
